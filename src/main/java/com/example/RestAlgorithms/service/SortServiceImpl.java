@@ -11,6 +11,11 @@ import java.util.List;
 public class SortServiceImpl implements SortService {
     @Override
     public void lambdaSort(List<String> listToSort) {
+        try {
+            Thread.sleep(2000);
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        }
         listToSort.sort((Comparator.naturalOrder()));
     }
 
