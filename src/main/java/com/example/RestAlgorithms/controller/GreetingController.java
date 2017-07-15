@@ -7,9 +7,7 @@ import org.springframework.web.bind.annotation.RestController;
 
 import java.util.concurrent.atomic.AtomicLong;
 
-/**
- * Created by chris on 7/14/17.
- */
+
 @RestController
 public class GreetingController {
 

@@ -2,16 +2,13 @@ package com.example.RestAlgorithms.model;
 
 import java.util.List;
 
-/**
- * Created by chris on 7/14/17.
- */
 public class SortResult {
 
     private final long id;
-    private List<?> result;
+    private List<String> result;
     private long runtime;
 
-    public SortResult(long id, List<?> result, long runtime) {
+    public SortResult(long id, List<String> result, long runtime) {
         this.id = id;
         this.result = result;
         this.runtime = runtime;
@@ -21,11 +18,11 @@ public class SortResult {
         return id;
     }
 
-    public List<?> getResult() {
+    public List<String> getResult() {
         return result;
     }
 
-    public void setResult(List<?> result) {
+    public void setResult(List<String> result) {
         this.result = result;
     }
 
